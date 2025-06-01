@@ -4,7 +4,9 @@
 
 > Este é o código-fonte do site institucional e da ferramenta de busca de peças para a Discotech Embreagens, uma empresa especializada em embreagens para caminhões. O projeto foi desenvolvido com HTML, CSS e JavaScript puro, com foco em performance, responsividade e usabilidade.
 
-🔗 **Acesse a demonstração ao vivo:** [https://seu-usuario.github.io/discotech-embreagens/](https://seu-usuario.github.io/discotech-embreagens/) *(Substitua pelo link real quando hospedar o site)*
+🔗 **Acesse a demonstração ao vivo:**##
+
+[Acesse aqui](https://catiamaine.github.io/Projeto-Loja-Embreagens/)
 
 ---
 
