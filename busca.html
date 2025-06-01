@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Peças - Discoteca Embreagens</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">DISCO<span>TECH</span></div>
+            <nav>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="busca.html">Buscar Peças</a></li>
+                    <li><a href="index.html#marcas">Marcas</a></li>
+                    <li><a href="index.html#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="busca-pecas">
+            <div class="container">
+                <h2>Consulte Nosso Estoque</h2>
+                <p class="busca-subtitulo">Filtre por marca e modelo para encontrar a peça que você precisa.</p>
+                <div class="filtros">
+                    <input type="text" id="filtro-texto" placeholder="Digite o modelo ou aplicação (Ex: 1113, Atego, VM 260)...">
+                    <select id="filtro-marca">
+                        <option value="">Todas as Marcas</option>
+                    </select>
+                    <select id="filtro-tipo">
+                        <option value="">Todos os Tipos</option>
+                        <option value="NOVO">Novo</option>
+                        <option value="REMANU">Remanufaturado</option>
+                    </select>
+                </div>
+                <div class="tabela-container">
+                    <table class="tabela-resultados">
+                        <thead>
+                            <tr>
+                                <th>Aplicação</th>
+                                <th>Marca</th>
+                                <th>Tipo</th>
+                                <th>Diâmetro</th>
+                                <th>Modelo</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabela-corpo">
+                            </tbody>
+                    </table>
+                </div>
+                <p id="sem-resultados" class="sem-resultados-mensagem">Nenhum item encontrado com os filtros selecionados.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://wa.me/5541995878366?text=Olá! Vim pelo site e gostaria de um orçamento." target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+            <p>&copy; 2024 Discotech Embreagens. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="main.js"></script>
+    <script src="busca.js"></script>
+
+</body>
+</html>
